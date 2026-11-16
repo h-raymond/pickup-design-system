@@ -5,3 +5,4 @@ storybook-static
 *.log
 .env
 app-dist
+.quality
