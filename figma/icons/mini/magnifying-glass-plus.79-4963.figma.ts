@@ -1,4 +1,4 @@
-// url=https://www.figma.com/design/EFyQnq9UtW4uDUlWGnsQ0K/Pickup?node-id=79-4963
+// url=https://www.figma.com/design/yTOUYxkA0nmz0lOm58iM8M/Pickup-Spotify-AI-Day?node-id=79-4963
 // source=https://github.com/tailwindlabs/heroicons
 // component=MagnifyingGlassPlusIcon
 import figma from 'figma'

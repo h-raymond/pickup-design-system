@@ -7,7 +7,7 @@ import { createRequire } from 'node:module';
 
 const require = createRequire(import.meta.url);
 const root = path.resolve(path.dirname(new URL(import.meta.url).pathname), '..');
-const FILE_URL = 'https://www.figma.com/design/EFyQnq9UtW4uDUlWGnsQ0K/Pickup';
+const FILE_URL = 'https://www.figma.com/design/yTOUYxkA0nmz0lOm58iM8M/Pickup-Spotify-AI-Day';
 
 const SETS = {
   outline: '@heroicons/react/24/outline',

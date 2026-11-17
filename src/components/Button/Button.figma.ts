@@ -1,5 +1,5 @@
-// url=https://www.figma.com/design/EFyQnq9UtW4uDUlWGnsQ0K/Pickup?node-id=66-332
-// source=https://github.com/figma/pickup-design-system/blob/main/src/components/Button/Button.tsx
+// url=https://www.figma.com/design/yTOUYxkA0nmz0lOm58iM8M/Pickup-Spotify-AI-Day?node-id=66-332
+// source=https://github.com/h-raymond/pickup-design-system/blob/main/src/components/Button/Button.tsx
 // component=Button
 import figma from 'figma'
 const instance = figma.selectedInstance
@@ -28,7 +28,7 @@ if (hasTrailingIcon) {
 
 export default {
   example: figma.code`<Button${variant !== 'default' ? ` variant="${variant}"` : ''}${size !== 'default' ? ` size="${size}"` : ''}${disabled ? ' disabled' : ''}${iconCode ? figma.code` trailingIcon={${iconCode}}` : ''}>
-  ${label}
+  {${JSON.stringify(label)}}
 </Button>`,
   imports: ['import { Button } from "@figma/pickup-design-system"'],
   id: 'button',

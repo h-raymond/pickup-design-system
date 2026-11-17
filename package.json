@@ -34,7 +34,9 @@
     "app": "vite --config app/vite.config.ts",
     "build:app": "vite build --config app/vite.config.ts",
     "quality": "node scripts/quality/audit.mjs",
-    "quality:visual": "node scripts/quality/visual.mjs"
+    "quality:visual": "node scripts/quality/visual.mjs",
+    "typecheck:code-connect": "tsc --noEmit -p tsconfig.code-connect.json",
+    "figma:check": "npm run typecheck:code-connect && node scripts/check-code-connect.mjs"
   },
   "peerDependencies": {
     "@heroicons/react": "^2.2.0",

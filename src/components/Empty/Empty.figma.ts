@@ -1,5 +1,5 @@
-// url=https://www.figma.com/design/EFyQnq9UtW4uDUlWGnsQ0K/Pickup?node-id=66-433
-// source=https://github.com/figma/pickup-design-system/blob/main/src/components/Empty/Empty.tsx
+// url=https://www.figma.com/design/yTOUYxkA0nmz0lOm58iM8M/Pickup-Spotify-AI-Day?node-id=66-433
+// source=https://github.com/h-raymond/pickup-design-system/blob/main/src/components/Empty/Empty.tsx
 // component=Empty
 import figma from 'figma'
 const instance = figma.selectedInstance
@@ -22,9 +22,9 @@ if (hasAction) {
 
 export default {
   example: figma.code`<Empty
-  icon={${iconCode}}
-  title="${title}"
-  description="${description}"${actionCode ? figma.code`
+  icon={${iconCode ?? 'null'}}
+  title={${JSON.stringify(title)}}
+  description={${JSON.stringify(description)}}${actionCode ? figma.code`
   action={${actionCode}}` : ''}
 />`,
   imports: ['import { Empty } from "@figma/pickup-design-system"'],

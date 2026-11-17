@@ -1,5 +1,5 @@
-// url=https://www.figma.com/design/EFyQnq9UtW4uDUlWGnsQ0K/Pickup?node-id=66-446
-// source=https://github.com/figma/pickup-design-system/blob/main/src/components/StickyActionBar/StickyActionBar.tsx
+// url=https://www.figma.com/design/yTOUYxkA0nmz0lOm58iM8M/Pickup-Spotify-AI-Day?node-id=66-446
+// source=https://github.com/h-raymond/pickup-design-system/blob/main/src/components/StickyActionBar/StickyActionBar.tsx
 // component=StickyActionBar
 import figma from 'figma'
 const instance = figma.selectedInstance
@@ -11,8 +11,8 @@ const buy = buyLayer && buyLayer.type === 'TEXT' ? buyLayer.textContent : 'Buy n
 
 export default {
   example: figma.code`<StickyActionBar>
-  <Button variant="outline">${save}</Button>
-  <Button>${buy}</Button>
+  <Button variant="outline">{${JSON.stringify(save)}}</Button>
+  <Button>{${JSON.stringify(buy)}}</Button>
 </StickyActionBar>`,
   imports: ['import { Button, StickyActionBar } from "@figma/pickup-design-system"'],
   id: 'sticky-action-bar',

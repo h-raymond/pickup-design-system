@@ -1,4 +1,4 @@
-// url=https://www.figma.com/design/EFyQnq9UtW4uDUlWGnsQ0K/Pickup?node-id=79-3607
+// url=https://www.figma.com/design/yTOUYxkA0nmz0lOm58iM8M/Pickup-Spotify-AI-Day?node-id=79-3607
 // source=https://github.com/tailwindlabs/heroicons
 // component=ChatBubbleOvalLeftEllipsisIcon
 import figma from 'figma'

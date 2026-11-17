@@ -10,7 +10,8 @@
     "esModuleInterop": true,
     "isolatedModules": true,
     "resolveJsonModule": true,
-    "noEmit": true
+    "noEmit": true,
+    "types": ["node", "@figma/code-connect/figma-types"]
   },
   "include": ["src", "stories", ".storybook", "vite.config.ts"],
   "exclude": ["src/**/*.figma.ts", "figma"]

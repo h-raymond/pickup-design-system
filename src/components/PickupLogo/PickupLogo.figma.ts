@@ -1,5 +1,5 @@
-// url=https://www.figma.com/design/EFyQnq9UtW4uDUlWGnsQ0K/Pickup?node-id=252-212
-// source=https://github.com/figma/pickup-design-system/blob/main/src/components/PickupLogo/PickupLogo.tsx
+// url=https://www.figma.com/design/yTOUYxkA0nmz0lOm58iM8M/Pickup-Spotify-AI-Day?node-id=252-212
+// source=https://github.com/h-raymond/pickup-design-system/blob/main/src/components/PickupLogo/PickupLogo.tsx
 // component=PickupLogo
 import figma from 'figma'
 

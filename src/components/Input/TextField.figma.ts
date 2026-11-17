@@ -1,5 +1,5 @@
-// url=https://www.figma.com/design/EFyQnq9UtW4uDUlWGnsQ0K/Pickup?node-id=106-111
-// source=https://github.com/figma/pickup-design-system/blob/main/src/components/Input/Input.tsx
+// url=https://www.figma.com/design/yTOUYxkA0nmz0lOm58iM8M/Pickup-Spotify-AI-Day?node-id=106-111
+// source=https://github.com/h-raymond/pickup-design-system/blob/main/src/components/Input/Input.tsx
 // component=Input, Textarea
 import figma from 'figma'
 const instance = figma.selectedInstance
@@ -13,7 +13,7 @@ const placeholder = placeholderLayer && placeholderLayer.type === 'TEXT' ? place
 const Tag = type === 'textarea' ? 'Textarea' : 'Input'
 
 export default {
-  example: figma.code`<${Tag}${variant !== 'filled' ? ` variant="${variant}"` : ''} placeholder="${placeholder}"${state === 'invalid' ? ' invalid' : ''}${state === 'disabled' ? ' disabled' : ''} />`,
+  example: figma.code`<${Tag}${variant !== 'filled' ? ` variant="${variant}"` : ''} placeholder={${JSON.stringify(placeholder)}}${state === 'invalid' ? ' invalid' : ''}${state === 'disabled' ? ' disabled' : ''} />`,
   imports: [type === 'textarea' ? 'import { Textarea } from "@figma/pickup-design-system"' : 'import { Input } from "@figma/pickup-design-system"'],
   id: 'text-field',
   metadata: { nestable: true },

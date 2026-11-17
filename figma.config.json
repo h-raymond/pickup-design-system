@@ -3,6 +3,6 @@
     "include": ["src/components/**/*.figma.ts", "figma/icons/**/*.figma.ts"],
     "label": "React",
     "language": "tsx",
-    "interactiveSetupFigmaFileUrl": "https://www.figma.com/design/EFyQnq9UtW4uDUlWGnsQ0K/Pickup"
+    "interactiveSetupFigmaFileUrl": "https://www.figma.com/design/yTOUYxkA0nmz0lOm58iM8M/Pickup-Spotify-AI-Day"
   }
 }

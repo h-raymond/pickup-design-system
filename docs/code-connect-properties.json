@@ -1,0 +1,1194 @@
+[
+  {
+    "fileKey": "yTOUYxkA0nmz0lOm58iM8M",
+    "nodeId": "66:332",
+    "name": "Button",
+    "properties": {
+      "Label#66:6": {
+        "name": "Label",
+        "type": "TEXT",
+        "key": "Label#66:6"
+      },
+      "Icon#89:0": {
+        "name": "Icon",
+        "type": "INSTANCE_SWAP",
+        "key": "Icon#89:0"
+      },
+      "Trailing icon#2279:0": {
+        "name": "Trailing icon",
+        "type": "BOOLEAN",
+        "key": "Trailing icon#2279:0"
+      },
+      "Variant": {
+        "name": "Variant",
+        "type": "VARIANT",
+        "key": "Variant",
+        "variantOptions": [
+          "Default",
+          "Overlay",
+          "Outline",
+          "Secondary",
+          "Ghost",
+          "Destructive",
+          "Link"
+        ]
+      },
+      "Size": {
+        "name": "Size",
+        "type": "VARIANT",
+        "key": "Size",
+        "variantOptions": [
+          "Default",
+          "Compact"
+        ]
+      },
+      "State": {
+        "name": "State",
+        "type": "VARIANT",
+        "key": "State",
+        "variantOptions": [
+          "Default",
+          "Hover",
+          "Pressed",
+          "Disabled",
+          "Focus"
+        ]
+      }
+    },
+    "descendants": {
+      "TEXT[Label]": {
+        "type": "TEXT",
+        "name": "Label",
+        "nodeId": "66:321",
+        "textContent": "Label",
+        "references": {
+          "characters": "Label#66:6"
+        },
+        "descendants": {}
+      },
+      "INSTANCE[Trailing icon]": {
+        "type": "INSTANCE",
+        "name": "Trailing icon",
+        "mainComponentName": "heroicons-mini/arrow-right",
+        "references": {
+          "visible": "Trailing icon#2279:0",
+          "mainComponent": "Icon#89:0"
+        },
+        "properties": {},
+        "descendants": {}
+      }
+    }
+  },
+  {
+    "fileKey": "yTOUYxkA0nmz0lOm58iM8M",
+    "nodeId": "66:455",
+    "name": "Icon button",
+    "properties": {
+      "Icon#2320:0": {
+        "name": "Icon",
+        "type": "INSTANCE_SWAP",
+        "key": "Icon#2320:0"
+      },
+      "Variant": {
+        "name": "Variant",
+        "type": "VARIANT",
+        "key": "Variant",
+        "variantOptions": [
+          "Default",
+          "Overlay",
+          "Outline",
+          "Secondary",
+          "Ghost",
+          "Destructive"
+        ]
+      },
+      "Size": {
+        "name": "Size",
+        "type": "VARIANT",
+        "key": "Size",
+        "variantOptions": [
+          "Default",
+          "Compact"
+        ]
+      },
+      "State": {
+        "name": "State",
+        "type": "VARIANT",
+        "key": "State",
+        "variantOptions": [
+          "Default",
+          "Hover",
+          "Pressed",
+          "Focus",
+          "Disabled"
+        ]
+      }
+    },
+    "descendants": {
+      "INSTANCE[Icon / heart]": {
+        "type": "INSTANCE",
+        "name": "Icon / heart",
+        "mainComponentName": "heroicons-outline/heart",
+        "references": {
+          "mainComponent": "Icon#2320:0"
+        },
+        "properties": {},
+        "descendants": {}
+      }
+    }
+  },
+  {
+    "fileKey": "yTOUYxkA0nmz0lOm58iM8M",
+    "nodeId": "106:111",
+    "name": "Text field",
+    "properties": {
+      "Value#106:0": {
+        "name": "Value",
+        "type": "TEXT",
+        "key": "Value#106:0"
+      },
+      "Type": {
+        "name": "Type",
+        "type": "VARIANT",
+        "key": "Type",
+        "variantOptions": [
+          "Input",
+          "Textarea"
+        ]
+      },
+      "State": {
+        "name": "State",
+        "type": "VARIANT",
+        "key": "State",
+        "variantOptions": [
+          "Default",
+          "Invalid",
+          "Disabled",
+          "Focused"
+        ]
+      },
+      "Variant": {
+        "name": "Variant",
+        "type": "VARIANT",
+        "key": "Variant",
+        "variantOptions": [
+          "Filled",
+          "Outline"
+        ]
+      }
+    },
+    "descendants": {
+      "TEXT[Placeholder]": {
+        "type": "TEXT",
+        "name": "Placeholder",
+        "nodeId": "66:341",
+        "textContent": "Placeholder",
+        "references": {
+          "characters": "Value#106:0"
+        },
+        "descendants": {}
+      },
+      "TEXT[Placeholder]e30=": {
+        "type": "TEXT",
+        "name": "Placeholder",
+        "nodeId": "2136:8829",
+        "textContent": "Placeholder",
+        "references": {},
+        "descendants": {}
+      }
+    }
+  },
+  {
+    "fileKey": "yTOUYxkA0nmz0lOm58iM8M",
+    "nodeId": "106:112",
+    "name": "Select",
+    "properties": {
+      "Value#106:1": {
+        "name": "Value",
+        "type": "TEXT",
+        "key": "Value#106:1"
+      },
+      "State": {
+        "name": "State",
+        "type": "VARIANT",
+        "key": "State",
+        "variantOptions": [
+          "Default",
+          "Focused",
+          "Invalid",
+          "Disabled"
+        ]
+      },
+      "Variant": {
+        "name": "Variant",
+        "type": "VARIANT",
+        "key": "Variant",
+        "variantOptions": [
+          "Filled",
+          "Outline"
+        ]
+      },
+      "Size": {
+        "name": "Size",
+        "type": "VARIANT",
+        "key": "Size",
+        "variantOptions": [
+          "Default",
+          "Compact"
+        ]
+      }
+    },
+    "descendants": {
+      "TEXT[Furniture]": {
+        "type": "TEXT",
+        "name": "Furniture",
+        "nodeId": "66:349",
+        "textContent": "Furniture",
+        "references": {
+          "characters": "Value#106:1"
+        },
+        "descendants": {}
+      },
+      "INSTANCE[Icon / chevron-down]": {
+        "type": "INSTANCE",
+        "name": "Icon / chevron-down",
+        "mainComponentName": "heroicons-mini/chevron-down",
+        "references": {},
+        "properties": {},
+        "descendants": {}
+      },
+      "TEXT[Furniture]e30=": {
+        "type": "TEXT",
+        "name": "Furniture",
+        "nodeId": "2136:8845",
+        "textContent": "Furniture",
+        "references": {},
+        "descendants": {}
+      }
+    }
+  },
+  {
+    "fileKey": "yTOUYxkA0nmz0lOm58iM8M",
+    "nodeId": "2327:8860",
+    "name": "Switch",
+    "properties": {
+      "Size": {
+        "name": "Size",
+        "type": "VARIANT",
+        "key": "Size",
+        "variantOptions": [
+          "Default",
+          "Sm"
+        ]
+      },
+      "Checked": {
+        "name": "Checked",
+        "type": "VARIANT",
+        "key": "Checked",
+        "variantOptions": [
+          "True",
+          "False"
+        ]
+      },
+      "State": {
+        "name": "State",
+        "type": "VARIANT",
+        "key": "State",
+        "variantOptions": [
+          "Default",
+          "Focus",
+          "Disabled",
+          "Invalid"
+        ]
+      }
+    },
+    "descendants": {}
+  },
+  {
+    "fileKey": "yTOUYxkA0nmz0lOm58iM8M",
+    "nodeId": "2338:8905",
+    "name": "Search field",
+    "properties": {
+      "Value#2338:0": {
+        "name": "Value",
+        "type": "TEXT",
+        "key": "Value#2338:0"
+      },
+      "Clear#2338:9": {
+        "name": "Clear",
+        "type": "BOOLEAN",
+        "key": "Clear#2338:9"
+      },
+      "Variant": {
+        "name": "Variant",
+        "type": "VARIANT",
+        "key": "Variant",
+        "variantOptions": [
+          "Filled",
+          "Outline"
+        ]
+      },
+      "State": {
+        "name": "State",
+        "type": "VARIANT",
+        "key": "State",
+        "variantOptions": [
+          "Default",
+          "Focused",
+          "Invalid",
+          "Disabled"
+        ]
+      }
+    },
+    "descendants": {
+      "INSTANCE[Search icon]": {
+        "type": "INSTANCE",
+        "name": "Search icon",
+        "mainComponentName": "heroicons-outline/magnifying-glass",
+        "references": {},
+        "properties": {},
+        "descendants": {}
+      },
+      "TEXT[Value]": {
+        "type": "TEXT",
+        "name": "Value",
+        "nodeId": "2338:8838",
+        "textContent": "Search",
+        "references": {
+          "characters": "Value#2338:0"
+        },
+        "descendants": {}
+      },
+      "INSTANCE[Clear]": {
+        "type": "INSTANCE",
+        "name": "Clear",
+        "mainComponentName": "Icon button",
+        "references": {
+          "visible": "Clear#2338:9"
+        },
+        "properties": {
+          "Icon#2320:0": {
+            "name": "Icon",
+            "type": "INSTANCE_SWAP",
+            "key": "Icon#2320:0"
+          },
+          "Variant": {
+            "name": "Variant",
+            "type": "VARIANT",
+            "key": "Variant",
+            "variantOptions": [
+              "Ghost"
+            ]
+          },
+          "Size": {
+            "name": "Size",
+            "type": "VARIANT",
+            "key": "Size",
+            "variantOptions": [
+              "Compact"
+            ]
+          },
+          "State": {
+            "name": "State",
+            "type": "VARIANT",
+            "key": "State",
+            "variantOptions": [
+              "Default"
+            ]
+          }
+        },
+        "descendants": {
+          "INSTANCE[Icon / heart]": {
+            "type": "INSTANCE",
+            "name": "Icon / heart",
+            "mainComponentName": "heroicons-outline/heart",
+            "references": {
+              "mainComponent": "Icon#2320:0"
+            },
+            "properties": {},
+            "descendants": {}
+          }
+        }
+      }
+    }
+  },
+  {
+    "fileKey": "yTOUYxkA0nmz0lOm58iM8M",
+    "nodeId": "66:383",
+    "name": "Badge",
+    "properties": {
+      "Label#66:20": {
+        "name": "Label",
+        "type": "TEXT",
+        "key": "Label#66:20"
+      },
+      "Variant": {
+        "name": "Variant",
+        "type": "VARIANT",
+        "key": "Variant",
+        "variantOptions": [
+          "Default",
+          "Secondary",
+          "Outline",
+          "Condition"
+        ]
+      }
+    },
+    "descendants": {
+      "TEXT[Label]": {
+        "type": "TEXT",
+        "name": "Label",
+        "nodeId": "66:372",
+        "textContent": "Label",
+        "references": {},
+        "descendants": {}
+      },
+      "TEXT[Label]eyJjaGFyYWN0ZXJzIjoiTGFiZWwjNjY6MjAifQ==": {
+        "type": "TEXT",
+        "name": "Label",
+        "nodeId": "66:374",
+        "textContent": "Label",
+        "references": {
+          "characters": "Label#66:20"
+        },
+        "descendants": {}
+      }
+    }
+  },
+  {
+    "fileKey": "yTOUYxkA0nmz0lOm58iM8M",
+    "nodeId": "2378:8889",
+    "name": "Checkbox",
+    "properties": {
+      "Checked": {
+        "name": "Checked",
+        "type": "VARIANT",
+        "key": "Checked",
+        "variantOptions": [
+          "False",
+          "True",
+          "Indeterminate"
+        ]
+      },
+      "State": {
+        "name": "State",
+        "type": "VARIANT",
+        "key": "State",
+        "variantOptions": [
+          "Default",
+          "Focus",
+          "Invalid",
+          "Disabled"
+        ]
+      }
+    },
+    "descendants": {
+      "INSTANCE[Indicator]": {
+        "type": "INSTANCE",
+        "name": "Indicator",
+        "mainComponentName": "heroicons-solid/minus",
+        "references": {},
+        "properties": {},
+        "descendants": {}
+      }
+    }
+  },
+  {
+    "fileKey": "yTOUYxkA0nmz0lOm58iM8M",
+    "nodeId": "66:400",
+    "name": "Summary card",
+    "properties": {},
+    "descendants": {
+      "TEXT[Mustard lounge chair]": {
+        "type": "TEXT",
+        "name": "Mustard lounge chair",
+        "nodeId": "66:403",
+        "textContent": "Mustard lounge chair",
+        "references": {},
+        "descendants": {}
+      },
+      "TEXT[$420 · Excellent]": {
+        "type": "TEXT",
+        "name": "$420 · Excellent",
+        "nodeId": "66:404",
+        "textContent": "$420 · Excellent",
+        "references": {},
+        "descendants": {}
+      }
+    }
+  },
+  {
+    "fileKey": "yTOUYxkA0nmz0lOm58iM8M",
+    "nodeId": "2136:11274",
+    "name": "Card",
+    "properties": {
+      "Variant": {
+        "name": "Variant",
+        "type": "VARIANT",
+        "key": "Variant",
+        "variantOptions": [
+          "Filled",
+          "Outline"
+        ]
+      },
+      "Size": {
+        "name": "Size",
+        "type": "VARIANT",
+        "key": "Size",
+        "variantOptions": [
+          "Sm",
+          "Default"
+        ]
+      }
+    },
+    "descendants": {
+      "TEXT[Card title]": {
+        "type": "TEXT",
+        "name": "Card title",
+        "nodeId": "2137:8841",
+        "textContent": "Card title",
+        "references": {},
+        "descendants": {}
+      },
+      "TEXT[Description uses muted foreground and inherits the base type scale.]": {
+        "type": "TEXT",
+        "name": "Description uses muted foreground and inherits the base type scale.",
+        "nodeId": "2137:8842",
+        "textContent": "Description uses muted foreground and inherits the base type scale.",
+        "references": {},
+        "descendants": {}
+      }
+    }
+  },
+  {
+    "fileKey": "yTOUYxkA0nmz0lOm58iM8M",
+    "nodeId": "66:410",
+    "name": "Page header",
+    "properties": {},
+    "descendants": {
+      "INSTANCE[Icon / chevron-left]": {
+        "type": "INSTANCE",
+        "name": "Icon / chevron-left",
+        "mainComponentName": "heroicons-outline/chevron-left",
+        "references": {},
+        "properties": {},
+        "descendants": {}
+      },
+      "TEXT[Selling]": {
+        "type": "TEXT",
+        "name": "Selling",
+        "nodeId": "66:413",
+        "textContent": "Selling",
+        "references": {},
+        "descendants": {}
+      }
+    }
+  },
+  {
+    "fileKey": "yTOUYxkA0nmz0lOm58iM8M",
+    "nodeId": "66:415",
+    "name": "Page menu",
+    "properties": {},
+    "descendants": {
+      "INSTANCE[Icon / heart]": {
+        "type": "INSTANCE",
+        "name": "Icon / heart",
+        "mainComponentName": "heroicons-outline/heart",
+        "references": {},
+        "properties": {},
+        "descendants": {}
+      },
+      "TEXT[Saves]": {
+        "type": "TEXT",
+        "name": "Saves",
+        "nodeId": "66:418",
+        "textContent": "Saves",
+        "references": {},
+        "descendants": {}
+      },
+      "INSTANCE[Icon / shopping-bag]": {
+        "type": "INSTANCE",
+        "name": "Icon / shopping-bag",
+        "mainComponentName": "heroicons-outline/shopping-bag",
+        "references": {},
+        "properties": {},
+        "descendants": {}
+      },
+      "TEXT[Selling]": {
+        "type": "TEXT",
+        "name": "Selling",
+        "nodeId": "66:421",
+        "textContent": "Selling",
+        "references": {},
+        "descendants": {}
+      },
+      "INSTANCE[Icon / tag]": {
+        "type": "INSTANCE",
+        "name": "Icon / tag",
+        "mainComponentName": "heroicons-outline/tag",
+        "references": {},
+        "properties": {},
+        "descendants": {}
+      },
+      "TEXT[Purchases]": {
+        "type": "TEXT",
+        "name": "Purchases",
+        "nodeId": "66:424",
+        "textContent": "Purchases",
+        "references": {},
+        "descendants": {}
+      },
+      "INSTANCE[Icon / user-circle]": {
+        "type": "INSTANCE",
+        "name": "Icon / user-circle",
+        "mainComponentName": "heroicons-outline/user-circle",
+        "references": {},
+        "properties": {},
+        "descendants": {}
+      },
+      "TEXT[Account]": {
+        "type": "TEXT",
+        "name": "Account",
+        "nodeId": "66:427",
+        "textContent": "Account",
+        "references": {},
+        "descendants": {}
+      }
+    }
+  },
+  {
+    "fileKey": "yTOUYxkA0nmz0lOm58iM8M",
+    "nodeId": "66:433",
+    "name": "Empty",
+    "properties": {
+      "Title#2368:0": {
+        "name": "Title",
+        "type": "TEXT",
+        "key": "Title#2368:0"
+      },
+      "Description#2368:1": {
+        "name": "Description",
+        "type": "TEXT",
+        "key": "Description#2368:1"
+      },
+      "Icon#2368:2": {
+        "name": "Icon",
+        "type": "INSTANCE_SWAP",
+        "key": "Icon#2368:2"
+      },
+      "Action#2368:3": {
+        "name": "Action",
+        "type": "BOOLEAN",
+        "key": "Action#2368:3"
+      }
+    },
+    "descendants": {
+      "INSTANCE[Icon / shopping-bag]": {
+        "type": "INSTANCE",
+        "name": "Icon / shopping-bag",
+        "mainComponentName": "heroicons-outline/shopping-bag",
+        "references": {
+          "mainComponent": "Icon#2368:2"
+        },
+        "properties": {},
+        "descendants": {}
+      },
+      "TEXT[EmptyTitle]": {
+        "type": "TEXT",
+        "name": "EmptyTitle",
+        "nodeId": "66:435",
+        "textContent": "Nothing here yet",
+        "references": {
+          "characters": "Title#2368:0"
+        },
+        "descendants": {}
+      },
+      "TEXT[EmptyDescription]": {
+        "type": "TEXT",
+        "name": "EmptyDescription",
+        "nodeId": "66:436",
+        "textContent": "Save items to find them here later.",
+        "references": {
+          "characters": "Description#2368:1"
+        },
+        "descendants": {}
+      },
+      "INSTANCE[Action]": {
+        "type": "INSTANCE",
+        "name": "Action",
+        "mainComponentName": "Button",
+        "references": {
+          "visible": "Action#2368:3"
+        },
+        "properties": {
+          "Label#66:6": {
+            "name": "Label",
+            "type": "TEXT",
+            "key": "Label#66:6"
+          },
+          "Icon#89:0": {
+            "name": "Icon",
+            "type": "INSTANCE_SWAP",
+            "key": "Icon#89:0"
+          },
+          "Trailing icon#2279:0": {
+            "name": "Trailing icon",
+            "type": "BOOLEAN",
+            "key": "Trailing icon#2279:0"
+          },
+          "Variant": {
+            "name": "Variant",
+            "type": "VARIANT",
+            "key": "Variant",
+            "variantOptions": [
+              "Default"
+            ]
+          },
+          "Size": {
+            "name": "Size",
+            "type": "VARIANT",
+            "key": "Size",
+            "variantOptions": [
+              "Default"
+            ]
+          },
+          "State": {
+            "name": "State",
+            "type": "VARIANT",
+            "key": "State",
+            "variantOptions": [
+              "Default"
+            ]
+          }
+        },
+        "descendants": {
+          "TEXT[Label]": {
+            "type": "TEXT",
+            "name": "Label",
+            "nodeId": "66:321",
+            "textContent": "Label",
+            "references": {
+              "characters": "Label#66:6"
+            },
+            "descendants": {}
+          },
+          "INSTANCE[Trailing icon]": {
+            "type": "INSTANCE",
+            "name": "Trailing icon",
+            "mainComponentName": "heroicons-mini/arrow-right",
+            "references": {
+              "visible": "Trailing icon#2279:0",
+              "mainComponent": "Icon#89:0"
+            },
+            "properties": {},
+            "descendants": {}
+          }
+        }
+      }
+    }
+  },
+  {
+    "fileKey": "yTOUYxkA0nmz0lOm58iM8M",
+    "nodeId": "66:437",
+    "name": "Skeleton stack",
+    "properties": {},
+    "descendants": {}
+  },
+  {
+    "fileKey": "yTOUYxkA0nmz0lOm58iM8M",
+    "nodeId": "66:446",
+    "name": "Sticky action bar",
+    "properties": {},
+    "descendants": {
+      "TEXT[Save]": {
+        "type": "TEXT",
+        "name": "Save",
+        "nodeId": "66:448",
+        "textContent": "Save",
+        "references": {},
+        "descendants": {}
+      },
+      "TEXT[Buy now]": {
+        "type": "TEXT",
+        "name": "Buy now",
+        "nodeId": "66:450",
+        "textContent": "Buy now",
+        "references": {},
+        "descendants": {}
+      }
+    }
+  },
+  {
+    "fileKey": "yTOUYxkA0nmz0lOm58iM8M",
+    "nodeId": "2380:8883",
+    "name": "Accordion",
+    "properties": {
+      "Title#2380:0": {
+        "name": "Title",
+        "type": "TEXT",
+        "key": "Title#2380:0"
+      },
+      "Content#2380:3": {
+        "name": "Content",
+        "type": "TEXT",
+        "key": "Content#2380:3"
+      },
+      "State": {
+        "name": "State",
+        "type": "VARIANT",
+        "key": "State",
+        "variantOptions": [
+          "Collapsed",
+          "Expanded"
+        ]
+      }
+    },
+    "descendants": {
+      "TEXT[AccordionTrigger]": {
+        "type": "TEXT",
+        "name": "AccordionTrigger",
+        "nodeId": "2380:8869",
+        "textContent": "How does delivery work?",
+        "references": {
+          "characters": "Title#2380:0"
+        },
+        "descendants": {}
+      },
+      "INSTANCE[Chevron]": {
+        "type": "INSTANCE",
+        "name": "Chevron",
+        "mainComponentName": "heroicons-mini/chevron-down",
+        "references": {},
+        "properties": {},
+        "descendants": {}
+      },
+      "TEXT[AccordionContent]": {
+        "type": "TEXT",
+        "name": "AccordionContent",
+        "nodeId": "2380:8881",
+        "textContent": "A neighbor picks up the item and brings it across town.",
+        "references": {
+          "characters": "Content#2380:3"
+        },
+        "descendants": {}
+      }
+    }
+  },
+  {
+    "fileKey": "yTOUYxkA0nmz0lOm58iM8M",
+    "nodeId": "2381:8888",
+    "name": "Popover",
+    "properties": {
+      "Trigger#2381:0": {
+        "name": "Trigger",
+        "type": "TEXT",
+        "key": "Trigger#2381:0"
+      },
+      "Title#2381:3": {
+        "name": "Title",
+        "type": "TEXT",
+        "key": "Title#2381:3"
+      },
+      "Content#2381:6": {
+        "name": "Content",
+        "type": "TEXT",
+        "key": "Content#2381:6"
+      },
+      "State": {
+        "name": "State",
+        "type": "VARIANT",
+        "key": "State",
+        "variantOptions": [
+          "Closed",
+          "Open"
+        ]
+      }
+    },
+    "descendants": {
+      "TEXT[TriggerLabel]": {
+        "type": "TEXT",
+        "name": "TriggerLabel",
+        "nodeId": "2381:8878",
+        "textContent": "View pickup details",
+        "references": {
+          "characters": "Trigger#2381:0"
+        },
+        "descendants": {}
+      },
+      "TEXT[PopoverTitle]": {
+        "type": "TEXT",
+        "name": "PopoverTitle",
+        "nodeId": "2381:8886",
+        "textContent": "Pickup details",
+        "references": {
+          "characters": "Title#2381:3"
+        },
+        "descendants": {}
+      },
+      "TEXT[PopoverDescription]": {
+        "type": "TEXT",
+        "name": "PopoverDescription",
+        "nodeId": "2381:8887",
+        "textContent": "Usually ready within two hours.",
+        "references": {
+          "characters": "Content#2381:6"
+        },
+        "descendants": {}
+      }
+    }
+  },
+  {
+    "fileKey": "yTOUYxkA0nmz0lOm58iM8M",
+    "nodeId": "2382:8891",
+    "name": "Tooltip",
+    "properties": {
+      "Text#2382:0": {
+        "name": "Text",
+        "type": "TEXT",
+        "key": "Text#2382:0"
+      },
+      "Side": {
+        "name": "Side",
+        "type": "VARIANT",
+        "key": "Side",
+        "variantOptions": [
+          "Top",
+          "Right",
+          "Bottom",
+          "Left"
+        ]
+      }
+    },
+    "descendants": {
+      "TEXT[TooltipText]": {
+        "type": "TEXT",
+        "name": "TooltipText",
+        "nodeId": "2382:8869",
+        "textContent": "Save for later",
+        "references": {
+          "characters": "Text#2382:0"
+        },
+        "descendants": {}
+      }
+    }
+  },
+  {
+    "fileKey": "yTOUYxkA0nmz0lOm58iM8M",
+    "nodeId": "2399:8887",
+    "name": "Alert",
+    "properties": {
+      "Icon#2399:0": {
+        "name": "Icon",
+        "type": "INSTANCE_SWAP",
+        "key": "Icon#2399:0"
+      },
+      "Title#2399:3": {
+        "name": "Title",
+        "type": "TEXT",
+        "key": "Title#2399:3"
+      },
+      "Description#2399:6": {
+        "name": "Description",
+        "type": "TEXT",
+        "key": "Description#2399:6"
+      },
+      "Variant": {
+        "name": "Variant",
+        "type": "VARIANT",
+        "key": "Variant",
+        "variantOptions": [
+          "Default",
+          "Destructive"
+        ]
+      }
+    },
+    "descendants": {
+      "INSTANCE[Icon]": {
+        "type": "INSTANCE",
+        "name": "Icon",
+        "mainComponentName": "heroicons-outline/information-circle",
+        "references": {
+          "mainComponent": "Icon#2399:0"
+        },
+        "properties": {},
+        "descendants": {}
+      },
+      "TEXT[AlertTitle]": {
+        "type": "TEXT",
+        "name": "AlertTitle",
+        "nodeId": "2399:8879",
+        "textContent": "Pickup requested",
+        "references": {
+          "characters": "Title#2399:3"
+        },
+        "descendants": {}
+      },
+      "TEXT[AlertDescription]": {
+        "type": "TEXT",
+        "name": "AlertDescription",
+        "nodeId": "2399:8880",
+        "textContent": "We’ll notify you when a courier accepts.",
+        "references": {
+          "characters": "Description#2399:6"
+        },
+        "descendants": {}
+      },
+      "INSTANCE[Icon]e30=": {
+        "type": "INSTANCE",
+        "name": "Icon",
+        "mainComponentName": "heroicons-outline/exclamation-triangle",
+        "references": {},
+        "properties": {},
+        "descendants": {}
+      }
+    }
+  },
+  {
+    "fileKey": "yTOUYxkA0nmz0lOm58iM8M",
+    "nodeId": "110:125",
+    "name": "Item Card",
+    "properties": {
+      "Title#110:4": {
+        "name": "Title",
+        "type": "TEXT",
+        "key": "Title#110:4"
+      },
+      "Price#110:5": {
+        "name": "Price",
+        "type": "TEXT",
+        "key": "Price#110:5"
+      },
+      "Distance#110:6": {
+        "name": "Distance",
+        "type": "TEXT",
+        "key": "Distance#110:6"
+      },
+      "Product image#110:7": {
+        "name": "Product image",
+        "type": "SLOT",
+        "key": "Product image#110:7"
+      }
+    },
+    "descendants": {
+      "TEXT[Title]": {
+        "type": "TEXT",
+        "name": "Title",
+        "nodeId": "94:11337",
+        "textContent": "Bookshelf Speakers",
+        "references": {
+          "characters": "Title#110:4"
+        },
+        "descendants": {}
+      },
+      "TEXT[Price]": {
+        "type": "TEXT",
+        "name": "Price",
+        "nodeId": "94:11339",
+        "textContent": "$65",
+        "references": {
+          "characters": "Price#110:5"
+        },
+        "descendants": {}
+      },
+      "TEXT[Distance]": {
+        "type": "TEXT",
+        "name": "Distance",
+        "nodeId": "94:11342",
+        "textContent": "2.3 mi",
+        "references": {
+          "characters": "Distance#110:6"
+        },
+        "descendants": {}
+      },
+      "INSTANCE[Badge]": {
+        "type": "INSTANCE",
+        "name": "Badge",
+        "mainComponentName": "Badge",
+        "references": {},
+        "properties": {
+          "Label#66:20": {
+            "name": "Label",
+            "type": "TEXT",
+            "key": "Label#66:20"
+          },
+          "Variant": {
+            "name": "Variant",
+            "type": "VARIANT",
+            "key": "Variant",
+            "variantOptions": [
+              "Condition"
+            ]
+          }
+        },
+        "descendants": {
+          "TEXT[Label]": {
+            "type": "TEXT",
+            "name": "Label",
+            "nodeId": "66:378",
+            "textContent": "Label",
+            "references": {
+              "characters": "Label#66:20"
+            },
+            "descendants": {}
+          }
+        }
+      },
+      "INSTANCE[Icon button]": {
+        "type": "INSTANCE",
+        "name": "Icon button",
+        "mainComponentName": "Icon button",
+        "references": {},
+        "properties": {
+          "Icon#2320:0": {
+            "name": "Icon",
+            "type": "INSTANCE_SWAP",
+            "key": "Icon#2320:0"
+          },
+          "Variant": {
+            "name": "Variant",
+            "type": "VARIANT",
+            "key": "Variant",
+            "variantOptions": [
+              "Default"
+            ]
+          },
+          "Size": {
+            "name": "Size",
+            "type": "VARIANT",
+            "key": "Size",
+            "variantOptions": [
+              "Compact"
+            ]
+          },
+          "State": {
+            "name": "State",
+            "type": "VARIANT",
+            "key": "State",
+            "variantOptions": [
+              "Default"
+            ]
+          }
+        },
+        "descendants": {
+          "INSTANCE[Icon / heart]": {
+            "type": "INSTANCE",
+            "name": "Icon / heart",
+            "mainComponentName": "heroicons-outline/heart",
+            "references": {
+              "mainComponent": "Icon#2320:0"
+            },
+            "properties": {},
+            "descendants": {}
+          }
+        }
+      }
+    }
+  },
+  {
+    "fileKey": "yTOUYxkA0nmz0lOm58iM8M",
+    "nodeId": "252:212",
+    "name": "pickup-logo",
+    "properties": {},
+    "descendants": {}
+  }
+]

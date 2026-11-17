@@ -1,7 +1,7 @@
 # Pickup Design System
 
 This is the React and TypeScript implementation of the **Pickup** design system. It is built from the
-[Pickup Figma file](https://www.figma.com/design/EFyQnq9UtW4uDUlWGnsQ0K/Pickup?node-id=51-6).
+[Pickup Figma file](https://www.figma.com/design/yTOUYxkA0nmz0lOm58iM8M/Pickup-Spotify-AI-Day?node-id=66-306).
 It includes design tokens, 21 components, Storybook, and Figma Code Connect for every component in the file, the 1,186 Heroicons included.
 
 ## Quick start
@@ -15,7 +15,7 @@ npm run build            # library build → dist/
 Use it in an app (via a GitHub dependency until it is published to a registry):
 
 ```bash
-npm install github:figma/pickup-design-system @heroicons/react
+npm install github:h-raymond/pickup-design-system @heroicons/react
 ```
 
 ```tsx
@@ -102,6 +102,9 @@ Fonts are Special Gothic, Special Gothic Condensed One, and DM Mono, loaded from
 - CSS classes are prefixed `pk-`.
 
 ## Code Connect
+
+See [Code Connect mappings and validation](docs/CODE_CONNECT.md) for this fork’s
+Figma destination, prop mappings, validation checks, and publishing instructions.
 
 Every Figma component in the file is connected, so Dev Mode shows real imports and props.
 

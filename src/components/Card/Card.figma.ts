@@ -1,5 +1,5 @@
-// url=https://www.figma.com/design/EFyQnq9UtW4uDUlWGnsQ0K/Pickup?node-id=2136-11274
-// source=https://github.com/figma/pickup-design-system/blob/main/src/components/Card/Card.tsx
+// url=https://www.figma.com/design/yTOUYxkA0nmz0lOm58iM8M/Pickup-Spotify-AI-Day?node-id=2136-11274
+// source=https://github.com/h-raymond/pickup-design-system/blob/main/src/components/Card/Card.tsx
 // component=Card
 import figma from 'figma'
 const instance = figma.selectedInstance
@@ -13,8 +13,8 @@ const description = descriptionLayer && descriptionLayer.type === 'TEXT' ? descr
 
 export default {
   example: figma.code`<Card${variant !== 'filled' ? ` variant="${variant}"` : ''}${size !== 'default' ? ` size="${size}"` : ''}>
-  <CardTitle>${title}</CardTitle>
-  <CardDescription>${description}</CardDescription>
+  <CardTitle>{${JSON.stringify(title)}}</CardTitle>
+  <CardDescription>{${JSON.stringify(description)}}</CardDescription>
 </Card>`,
   imports: ['import { Card, CardTitle, CardDescription } from "@figma/pickup-design-system"'],
   id: 'card',

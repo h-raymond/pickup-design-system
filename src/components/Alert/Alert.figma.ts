@@ -1,5 +1,5 @@
-// url=https://www.figma.com/design/EFyQnq9UtW4uDUlWGnsQ0K/Pickup?node-id=2399-8887
-// source=https://github.com/figma/pickup-design-system/blob/main/src/components/Alert/Alert.tsx
+// url=https://www.figma.com/design/yTOUYxkA0nmz0lOm58iM8M/Pickup-Spotify-AI-Day?node-id=2399-8887
+// source=https://github.com/h-raymond/pickup-design-system/blob/main/src/components/Alert/Alert.tsx
 // component=Alert
 import figma from 'figma'
 const instance = figma.selectedInstance
@@ -17,7 +17,7 @@ if (variant === 'default') {
 }
 
 export default {
-  example: figma.code`<Alert${variant !== 'default' ? ` variant="${variant}"` : ''}${iconCode ? figma.code` icon={${iconCode}}` : ''} title="${title}" description="${description}" />`,
+  example: figma.code`<Alert${variant !== 'default' ? ` variant="${variant}"` : ''}${iconCode ? figma.code` icon={${iconCode}}` : ''} title={${JSON.stringify(title)}} description={${JSON.stringify(description)}} />`,
   imports: ['import { Alert } from "@figma/pickup-design-system"'],
   id: 'alert',
   metadata: { nestable: false },

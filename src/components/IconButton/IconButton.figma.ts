@@ -1,5 +1,5 @@
-// url=https://www.figma.com/design/EFyQnq9UtW4uDUlWGnsQ0K/Pickup?node-id=66-455
-// source=https://github.com/figma/pickup-design-system/blob/main/src/components/IconButton/IconButton.tsx
+// url=https://www.figma.com/design/yTOUYxkA0nmz0lOm58iM8M/Pickup-Spotify-AI-Day?node-id=66-455
+// source=https://github.com/h-raymond/pickup-design-system/blob/main/src/components/IconButton/IconButton.tsx
 // component=IconButton
 import figma from 'figma'
 const instance = figma.selectedInstance
@@ -21,7 +21,7 @@ if (icon && icon.type === 'INSTANCE') {
 }
 
 export default {
-  example: figma.code`<IconButton${variant !== 'default' ? ` variant="${variant}"` : ''}${size !== 'default' ? ` size="${size}"` : ''}${disabled ? ' disabled' : ''} icon={${iconCode}} aria-label="TODO: describe action" />`,
+  example: figma.code`<IconButton${variant !== 'default' ? ` variant="${variant}"` : ''}${size !== 'default' ? ` size="${size}"` : ''}${disabled ? ' disabled' : ''} icon={${iconCode ?? 'null'}} aria-label="TODO: describe action" />`,
   imports: ['import { IconButton } from "@figma/pickup-design-system"'],
   id: 'icon-button',
   metadata: { nestable: true },
