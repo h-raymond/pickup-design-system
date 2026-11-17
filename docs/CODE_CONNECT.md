@@ -69,17 +69,26 @@ This is a local runtime simulation, not a Figma Dev Mode visual verification.
 Refresh the property snapshot through `get_context_for_code_connect` when the
 Figma component definitions change.
 
-The Figma connector saved source links, but read-back reported `hasTemplate: false`
-despite executable templates being supplied. Source links alone do not publish
-these prop-aware snippets. To publish the validated templates, configure
-`FIGMA_ACCESS_TOKEN` locally with Code Connect write scope, then run:
+All 1,207 templates were published through the Code Connect CLI on 2026-11-17.
+Figma read-back confirmed `hasTemplate: true` for all 1,384 connected component
+instances/variants in the linked selection. Live snippets were also checked for
+Button, SearchField, Checkbox, TooltipContent, SummaryCard, and ItemCard,
+including its Product image slot and condition label.
+
+The connector initially saved source links without the supplied executable
+templates; the CLI publication replaced those source-only mappings. To republish,
+put `FIGMA_ACCESS_TOKEN=...` in the gitignored `.env` file and run:
 
 ```sh
-npm run figma:publish -- --skip-update-check --exit-on-unreadable-files --force --batch-size 100
+node --env-file=.env node_modules/@figma/code-connect/bin/figma connect publish --skip-update-check --exit-on-unreadable-files --force --batch-size 100
 ```
 
-`--force` replaces the connector-created source-only mappings with full templates.
-Keep the token out of Git. Publishing is pending until authentication is available.
+Normal CLI validation requires `file_content:read` in addition to Code Connect
+write scope. The initial publication used `--skip-validation` with a write-scoped
+token after the component definitions had already been checked through Figma MCP
+and `npm run figma:check` had passed. Repeat those checks before using that flag
+with a token that lacks file-read access. `--force` replaces conflicting
+source-only mappings. Keep the token out of Git.
 
 The existing `npm run quality` app audit fails on pre-existing CSS token,
 documentation and file-length findings in `app/src`. This Code Connect change
